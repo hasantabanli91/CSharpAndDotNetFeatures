@@ -17,11 +17,11 @@ namespace CSharpFeatures
 
         public void Eat()
         {
-            Console.WriteLine(Name + "(" + Age + ")" + " eating");
+            Console.WriteLine(Name + "(" + Age + ")" + " eating\n");
         }        
         public void Sleep()
         {
-            Console.WriteLine(Name + "(" + Age + ")" + " sleeping");
+            Console.WriteLine(Name + "(" + Age + ")" + " sleeping\n");
         }
     }
 
@@ -38,11 +38,11 @@ namespace CSharpFeatures
 
         public void Eat()
         {
-            Console.WriteLine(Name + "(" + Age + ")" + " eating");
+            Console.WriteLine(Name + "(" + Age + ")" + " eating\n");
         }
         public void Sleep()
         {
-            Console.WriteLine(Name + "(" + Age + ")" + " sleeping");
+            Console.WriteLine(Name + "(" + Age + ")" + " sleeping\n");
         }
     }
 }
