@@ -40,7 +40,7 @@ namespace CSharpFeatures
             // car.Model > we cannot use private members another classes
             // car.Drive() > we cannot use protected members unless we inherite its class in this class
 
-            car.CarSample();
+            car.CarSample(); // we can access CarSample Method because it is public.
 
             Console.WriteLine("End Of Access Modifiers(with static, sealed) Sample\n\n");
             #endregion
