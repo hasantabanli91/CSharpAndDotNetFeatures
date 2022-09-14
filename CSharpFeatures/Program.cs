@@ -34,6 +34,17 @@ namespace CSharpFeatures
 
             #endregion
 
+            #region AccessModifiersSample
+
+            Car car = new Car();
+            // car.Model > we cannot use private members another classes
+            // car.Drive() > we cannot use protected members unless we inherite its class in this class
+
+            car.CarSample();
+
+            Console.WriteLine("End Of Access Modifiers(with static, sealed) Sample\n\n");
+            #endregion
+
         }
     }
 }
