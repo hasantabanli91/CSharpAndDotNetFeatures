@@ -4,13 +4,13 @@ namespace CSharpFeatures
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) // When a method doesnt need to return a value, we use the void keyword.
         {
             Console.WriteLine("Hello World! \n\n");
 
             #region Object Sample
 
-            ObjectSample objectSample = new ObjectSample();
+            ObjectSample objectSample = new ObjectSample(); // we use "new" keyword when we want to create an instance of class or struct.
             objectSample.ObjectSampleMethod();
 
             Console.WriteLine("End Of Object Sample\n\n");
