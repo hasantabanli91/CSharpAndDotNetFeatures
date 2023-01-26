@@ -45,6 +45,13 @@ namespace CSharpFeatures
             Console.WriteLine("End Of Access Modifiers(with static, sealed) Sample\n\n");
             #endregion
 
+            #region EnumSample
+
+            EnumSample enumSample = new EnumSample();
+            enumSample.GetMonths();
+
+            #endregion
+
         }
     }
 }
