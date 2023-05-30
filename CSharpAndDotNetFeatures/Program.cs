@@ -53,6 +53,8 @@ namespace CSharpAndDotNetFeatures
             #endregion
 
             //TODO async await
+
+            //https://github.com/dotnet/try-samples/tree/main/101-linq-samples/src for linq
         }
     }
 }
