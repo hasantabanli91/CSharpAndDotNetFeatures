@@ -54,7 +54,9 @@ namespace CSharpAndDotNetFeatures
 
             //TODO async await
 
-            //https://github.com/dotnet/try-samples/tree/main/101-linq-samples/src for linq
+            //TODO https://github.com/dotnet/try-samples/tree/main/101-linq-samples/src for linq
+
+            //TODO csharp features, new features will seperate with files
         }
     }
 }
