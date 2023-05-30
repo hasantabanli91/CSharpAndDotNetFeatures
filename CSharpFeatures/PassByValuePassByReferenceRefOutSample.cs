@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSharpFeatures
+namespace CSharpAndDotNetFeatures
 {
     internal class PassByValuePassByReferenceRefOutSample
     {

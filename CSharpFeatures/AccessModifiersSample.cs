@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSharpFeatures
+namespace CSharpAndDotNetFeatures
 {
     internal class Car : Vehicle //: SealedClass > When we try that we take en error like "cannot derive from sealed type"
     {   // Internal keyword is used access the class in this solution

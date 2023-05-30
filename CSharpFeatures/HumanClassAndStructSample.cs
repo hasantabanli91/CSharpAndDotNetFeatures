@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CSharpFeatures
+namespace CSharpAndDotNetFeatures
 {
 
     public class HumanClass : IHuman //,HumanStruct > When we try that we take an error like this "Error	CS0527	Type 'HumanStruct' in interface list is not an interface"

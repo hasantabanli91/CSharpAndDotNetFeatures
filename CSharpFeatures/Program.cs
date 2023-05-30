@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharpFeatures
+namespace CSharpAndDotNetFeatures
 {
     internal class Program
     {
