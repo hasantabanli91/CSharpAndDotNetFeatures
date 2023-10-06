@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CSharpAndDotNetFeatures
 {
@@ -49,6 +50,20 @@ namespace CSharpAndDotNetFeatures
 
             EnumSample enumSample = new EnumSample();
             enumSample.GetMonths();
+
+            #endregion
+
+            #region Yield Sample
+            Yield yield = new Yield();
+            IEnumerable<string> datas = yield.BringDaysWithYield();
+
+            foreach (var item in datas)
+                Console.WriteLine(item);
+
+            datas = yield.BringDays();
+
+            foreach (var item in datas)
+                Console.WriteLine(item);
 
             #endregion
 
