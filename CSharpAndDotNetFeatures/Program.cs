@@ -67,7 +67,20 @@ namespace CSharpAndDotNetFeatures
 
             #endregion
 
-            //TODO async await
+            #region ConstantReadonly Sample
+
+            ConstantAndReadonly constantAndReadonly = new ConstantAndReadonly();
+            constantAndReadonly.Check();
+
+            #endregion
+
+            //TODO delegate event invoke
+            #region Delegate 
+            Delegates delegateOperations = new Delegates();
+            Delegates.MathFourOperationsHandler mathFourOperationsHandler = new Delegates.MathFourOperationsHandler(delegateOperations.Sum);
+            Console.WriteLine("Delegate Operation Sum of 10 and 5" + mathFourOperationsHandler(10, 5));
+            Console.WriteLine("Delegate Operation Sum of 10 and 15 with Invoke Method " + mathFourOperationsHandler.Invoke(10, 15));
+            #endregion
 
             //TODO https://github.com/dotnet/try-samples/tree/main/101-linq-samples/src for linq
 
